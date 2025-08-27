@@ -1,0 +1,53 @@
+.top-header {
+    /* Font */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 70px;
+
+    /* Färger */
+    background-color: darkgreen;
+    color: blue;
+
+    /* Border */
+    border: 5px solid red;
+    border-radius: 5px;
+
+    /* Storlek */
+    width: 200px;
+    height: 200px;
+
+    /* Text position */
+    text-align: center;
+
+    /* Mellanrum */
+    /* Inre mellanrum */
+    padding: 100px;
+
+    /* Yttr mellarum */
+    margin: 50px;
+}
+
+.middle-header {
+    margin-top: 200px;
+    margin-left: 500px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    margin: 5px;
+    border: 2px solid navy;
+}
+
+.box1 {
+    display: block;
+}
+.box2 {
+    display: inline;
+}
+.box3 {
+    display: inline-block;
+}
+.box4 {
+    display: flex;
+}
